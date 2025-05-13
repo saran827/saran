@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int a=10;
+    int b=a++;
+    int add=a+b;
+    printf("print the b:%d \n",b);
+    printf("the value of add:%d \n",add);
+    int c=22;
+    int d=c--;
+    int sub=c-d;
+    printf("print the d:%d \n",d);
+    printf("value of sub:%d",sub);
+    return 0;
+}
