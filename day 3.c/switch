@@ -1,0 +1,22 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+ int cars=3;   
+  switch(cars)
+  {
+  case 1:
+  printf("BMW");
+  break;
+  case 2:
+  printf("kIA");
+  break;
+  case 3:
+  printf("BOLERO");
+  break;
+  default:
+  printf("MARUTHI");
+}
+return 0;
+}
+  

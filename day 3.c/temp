@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int temp;
+    printf("enter the temperature:\n");
+    scanf("%d",&temp);
+    if(temp<10)
+    printf("wear jacket");
+    else if(temp>20)
+    printf("wear sweater");
+    else
+    printf("wear t-shirt");
+    return 0;
+    
+}

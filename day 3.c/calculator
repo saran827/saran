@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int a=2,b=16;
+    char op;
+    printf("enter operator");
+     scanf("%c",&op);
+    switch(op)
+    {
+        case'+':
+        printf("result=%d \n",a+b);
+        break;
+        case'-':
+        printf("result=%d \n",a-b);
+        break;
+        case'*':
+        printf("result=%d \n",a*b);
+        break;
+        default:
+        printf("result=%d \n",a/b);
+        
+    }
+    return 0;
+    
+}
