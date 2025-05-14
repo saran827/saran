@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+ int a=10,b=45,c=35,d=56;
+ int sum=a+b+c+d;
+ int avg=sum/5;
+ printf("the sum of value %d \n",sum);
+ printf("the avg %d \n",avg);
+ if(avg<=100)
+ {
+     printf("A grade");
+}
+else
+{
+    printf("C grade");
+}
+ return 0;
+}
