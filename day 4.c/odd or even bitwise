@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    
+    printf("enter the value");
+    scanf("%d",&a);
+
+    if (a&0)
+   
+     {
+        printf("is a even.",a);
+     }
+    else if(a&1) 
+    {
+        printf("is a odd.",a);
+    }
+    else
+    {
+        printf(" is invalide");
+    }
+    return 0;
+}
